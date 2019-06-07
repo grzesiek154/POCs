@@ -1,0 +1,30 @@
+https://www.javaworld.com/article/2074349/core-java/groovy-s-special-words.html
+
+http://groovy-lang.org/syntax.html#_keywords
+
+
+ - it, delegate, owner
+
+The three keywords it, delegate, and owner are used with Groovy closures. They provide handles to implicitly available objects from within the closure's body. Although these keywords can be used outside of the closure body for other purposes, I tend to reserve them for use within a closure. In fact, one can even use them for purposes other than their intended purpose within a closure body, but this seems to be especially poor taste to do.
+
+For closures accepting a single argument, the keyword it can be used to represent that single parameter rather than explicitly specifying the single parameter's name. The keywords this, owner, and delegate also have special meaning within a closure.
+
+5.times {
+   println "Groovy Rules!"
+}
+
+This will execute the body 5 times! Here is the sample output:
+
+Groovy Rules!
+Groovy Rules!
+Groovy Rules!
+Groovy Rules!
+Groovy Rules!
+
+
+
+-doFirst and doLast
+The calls doFirst and doLast can be executed multiple times. They add an action to the beginning or the end of the task’s actions list. When the task executes, the actions in the action list are executed in order.
+
+gradle -q
+This is equivalent to running gradle clean run. In a multi-project build every subproject can have its own specific default tasks. If a subproject does not specify default tasks, the default tasks of the parent project are used (if defined).
