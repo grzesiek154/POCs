@@ -1,0 +1,24 @@
+gradle init --type java-library --project-name jvm-library
+
+./gradlew build - bilds the project
+
+jar tf build/libs/building-java-libraries.jar - verify that the archive is valid
+
+./gradlew jar - run the jar task
+
+gradle -q hello 
+-q - this suppresses Gradle’s log messages, so that only the output of the tasks is shown.
+
+gradle taks --all 
+displays all taska from taks collection in current project
+
+
+
+-gradlew is a wrapper that uses gradle.
+Under the hood the Gradle Wrapper performs three things:
+
+    1 Parse the arguments passed to gradlew
+    2 Install the correct Gradle version
+    3 Invoke Gradle to run the specified tasks
+
+Using Gradle Wrapper you don’t need to manage project Gradle distributions themselves. It means that each developer in your project uses the same version of Gradle and can run Gradle build(even if Gradle was not installed) 
