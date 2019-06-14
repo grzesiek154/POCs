@@ -1,7 +1,9 @@
 package services;
 
+import com.google.api.client.googleapis.services.AbstractGoogleClient;
+
 public interface BaseServiceInterface {
 
-    boolean login(String data);
+    boolean login(AbstractGoogleClient client);
     boolean logout(String data);
 }
