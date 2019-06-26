@@ -2,33 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3985762b-e34f-4d3c-a139-dd6832948a9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ReflectionDarekBeans.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/enemy_ship_factory/ESEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/enemy_ship_factory/ESUFOGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/enemy_ship_factory/ESWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/enemy_ship_factory/EnemyShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/enemy_ship_factory/EnemyShipFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/enemy_ship_factory/UFOEnemyShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestFxApp/TestFxApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSockets/websocket-demo/src/main/java/com/example/websocketdemo/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSockets/websocket-demo/src/main/java/com/example/websocketdemo/WebSocketEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSockets/websocket-demo/src/main/java/com/example/websocketdemo/controllers/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSockets/websocket-demo/src/main/java/com/example/websocketdemo/models/ChatMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSockets/websocket-demo/src/main/resources/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSockets/websocket-demo/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebSockets/websocket-demo/src/main/resources/static/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../calendar_api_poc/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../google_api_manager/src/main/java/services/BaseServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../google_api_manager/src/main/java/services/DriveApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservices_test_app/gallery_server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservices_test_app/gallery_server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservices_test_app/gallery_server/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservices_test_app/gallery_server/gallery_server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservices_test_app/gallery_server/src/main/java/com/poc/gallery_server/Gallery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservices_test_app/gallery_server/src/main/java/com/poc/gallery_server/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservices_test_app/image_server/src/main/java/com/poc/image_server/controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservices_test_app/image_server/src/main/java/com/poc/image_server/entities/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../google_api_manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../google_api_manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/doc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/src/main/java/jvm/library/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/src/test/java/jvm/library/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/syntax.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/dest/myfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/src/myfile" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,29 +58,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="121" column="9" lean-forward="true" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+            <state relative-caret-position="102">
+              <caret line="111" column="32" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/reflect/Field.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="167" column="16" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="151" column="7" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -117,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="-2" />
     <option name="width" value="1920" />
     <option name="height" value="1082" />
@@ -131,7 +125,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,10 +162,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -216,29 +211,24 @@
       <option name="presentableId" value="Default" />
       <updated>1559892262247</updated>
       <workItem from="1559892265990" duration="9011000" />
+      <workItem from="1560239517461" duration="1229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9011000" />
+    <option name="totallyTimeSpent" value="10240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="0" y="-2" width="1920" height="1082" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24066168" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24332978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32963374" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.60821307" />
@@ -246,18 +236,24 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Google Cloud Storage" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32963374" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Google Cloud Storage" order="6" show_stripe_button="false" />
+      <window_info anchor="right" id="Key Promoter X" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,17 +309,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="151" column="7" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="111" column="32" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/reflect/Field.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
+        <state relative-caret-position="1935">
           <caret line="167" column="16" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="151" column="7" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -331,16 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="121" column="9" lean-forward="true" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

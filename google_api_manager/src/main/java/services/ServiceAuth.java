@@ -9,7 +9,7 @@ public class ServiceAuth implements BaseServiceInterface {
     @Override
     public boolean login(AbstractGoogleClient client) {
 
-        client = new Drive.Builder()
+        client = new Drive();
 
         return false;
     }
