@@ -2,28 +2,28 @@
 
 .container {
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
 }
 
-.container .row {
+.container div {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-basis: 10%;
 }
 
+.row {
+    margin-bottom: 1vw;
+}
 
 .card {
     margin: 0;
-    border: 2px #3b3a30 solid;
-    flex: auto;
-    order: 1;
-    flex-basis: 20%;
-   
+    border: 2px red solid;
 }
 
 .card-back {
     background-position: center;
     background-image: url("../img/card2.png"); 
     background-size: cover;
-    min-width: 12em;
+    min-width: 17em;
     min-height: 25rem;
 }
