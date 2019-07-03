@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3985762b-e34f-4d3c-a139-dd6832948a9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../google_api_manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../google_api_manager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/doc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/authoringTasks/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/buildScripts/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/src/main/java/jvm/library/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/building-java-libraries/src/test/java/jvm/library/LibraryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/syntax.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/dest/myfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/tutorial1/src/myfile" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="111" column="32" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
+            <state relative-caret-position="282">
+              <caret line="199" column="66" selection-start-line="199" selection-start-column="61" selection-end-line="199" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,10 +74,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="-2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1082" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1987" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -124,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +125,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -170,6 +134,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,17 +177,18 @@
       <updated>1559892262247</updated>
       <workItem from="1559892265990" duration="9011000" />
       <workItem from="1560239517461" duration="1229000" />
+      <workItem from="1561968467989" duration="1697000" />
+      <workItem from="1561972756227" duration="1581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10240000" />
+    <option name="totallyTimeSpent" value="13518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1082" extended-state="7" />
-    <editor active="true" />
+    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24332978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -309,16 +275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="111" column="32" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/reflect/Field.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1935">
@@ -337,6 +293,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="199" column="66" selection-start-line="199" selection-start-column="61" selection-end-line="199" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

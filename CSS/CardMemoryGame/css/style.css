@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.container .row {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card {
+    margin: 0;
+    border: 2px #3b3a30 solid;
+    flex: auto;
+    order: 1;
+    flex-basis: 20%;
+   
+}
+
+.card-back {
+    background-position: center;
+    background-image: url("../img/card2.png"); 
+    background-size: cover;
+    min-width: 12em;
+    min-height: 25rem;
+}
