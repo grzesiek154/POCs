@@ -10,7 +10,6 @@
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-
 }
 
 .row {
@@ -49,7 +48,6 @@
 }
 .card-back {
     background-image: url("../img/card2.png");
-    
 }
 
 .card-front {
