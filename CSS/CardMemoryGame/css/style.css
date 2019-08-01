@@ -51,7 +51,7 @@
 }
 
 .card-front {
-   background-image: url("../img/ball.jpg");
+   /* background-image: url("../img/ball.jpg"); */
    transform: rotateY(180deg); 
 }
 
