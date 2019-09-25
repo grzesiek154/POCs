@@ -1,0 +1,7 @@
+Hospital Employee Management System
+
+* Hiring and Terminating of Employees
+* Print Reports in xml or CSV
+
+Klasa powinna miec tyko jeden powód do zmiany !!!
+Lepie stworzyc wiecej klasy odpowiedzialnych za poszczegolne zadania

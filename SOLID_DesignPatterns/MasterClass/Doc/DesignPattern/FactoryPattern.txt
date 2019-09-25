@@ -1,0 +1,10 @@
+In class-based programming, the factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created. This is done by creating objects by calling a factory method—either specified in an interface and implemented by child classes, or implemented in a base class and optionally overridden by derived classes—rather than by calling a constructor.
+
+When to Use Factory Method Design Pattern
+When the implementation of an interface or an abstract class is expected to change frequently
+When the current implementation cannot comfortably accommodate new change
+When the initialization process is relatively simple, and the constructor only requires a handful of parameters
+
+Abstract Factory Design Pattern
+In the previous section, we saw how the Factory Method design pattern could be used to create objects related to a single family.
+By contrast, the Abstract Factory Design Pattern is used to create families of related or dependent objects. It’s also sometimes called a factory of factories.

@@ -1,0 +1,87 @@
+Subtypes must be substitutable for ther basetypes.
+
+Naruszeniem tej zasady bylo by jesli np nauczyciel zastepczy dziedziczyl by po klasie nauczyciel, poniewaz nie jest on "zyklym" nauczycielem
+
+Liskov Substitution Principle Examples
+The Liskov substitution principle, written by Barbara Liskov in 1988, states that functions that reference base classes must be able to use objects of derived (child) classes without knowing it. It’s important for a programmer to notice that, unlike some other Gang of Four principles, whose breaking might result in bad, but working code, the violation of this principle will most likely lead to buggy or difficult to maintain code.
+
+Let’s illustrate this in Java:
+
+class TrasportationDevice
+{
+   String name;
+   String getName() { ... }
+   void setName(String n) { ... }
+   double speed;
+   double getSpeed() { ... }
+   void setSpeed(double d) { ... }
+
+   Engine engine;
+   Engine getEngine() { ... }
+   void setEngine(Engine e) { ... }
+   void startEngine() { ... }
+}
+class Car extends TransportationDevice
+{
+   @Override
+   void startEngine() { ... }
+}
+There is no problem here, right? A car is definitely a transportation device, and here we can see that it overrides the startEngine() method of its superclass.
+
+Let’s add another transportation device:
+
+class Bicycle extends TransportationDevice
+{
+   @Override
+   void startEngine() /*problem!*/
+}
+Everything isn’t going as planned now! Yes, a bicycle is a transportation device, however, it does not have an engine and hence, the method startEngine cannot be implemented.
+
+These are the kinds of problems that violation of Liskov Substitution Principle leads to, and they can most usually be recognized by a method that does nothing, or even can’t be implemented.
+
+The solution to these problems is a correct inheritance hierarchy, and in our case we would solve the problem by differentiating classes of transportation devices with and without engines. Even though a bicycle is a transportation device, it doesn’t have an engine. In this example our definition of transportation device is wrong. It should not have an engine.
+
+We can refactor our TransportationDevice  class as follows:
+
+class TrasportationDevice
+{
+   String name;
+   String getName() { ... }
+   void setName(String n) { ... }
+
+   double speed;
+   double getSpeed() { ... }
+   void setSpeed(double d) { ... }
+}
+Now we can extend TransportationDevice  for non-motorized devices.
+
+class DevicesWithoutEngines extends TransportationDevice
+{
+   void startMoving() { ... }
+}
+And extend TransportationDevice  for motorized devices. Here is is more appropriate to add theEngine  object.
+
+class DevicesWithEngines extends TransportationDevice
+{
+   Engine engine;
+   Engine getEngine() { ... }
+   void setEngine(Engine e) { ... }
+
+   void startEngine() { ... }
+}
+Thus our Car  class becomes more specialized, while adhering to the Liskov Substitution Principle.
+
+class Car extends DevicesWithEngines
+{
+   @Override
+   void startEngine() { ... }
+}
+And our Bicycle  class is also in compliance with the Liskov Substitution Principle.
+
+class Bicycle extends DevicesWithoutEngines
+{
+   @Override
+   void startMoving() { ... }
+}
+Conclusion
+Object Oriented languages such as Java are very powerful and offer you as a developer a tremendous amount of flexibility. You can misuse or abuse any language. In the Polymorphism post I explained the ‘Is-A’ test. If you’re writing objects which extend classes, but fails the ‘Is-A’ test, you’re likely violating the Liskov Substitution Principle.

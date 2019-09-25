@@ -1,0 +1,33 @@
+-Streams
+streamy skladaja sie z kolekcji referencji do obiektow, kazdy obiekt w streamie jest odpowiednikiem obiektu w kolekci, obiekty w streamie sa uporzadkowane w ten sam
+sposob co obiekty w kolekcji
+Rezultat operacji w streamie nie moze polegac na rezultacie operacji z poza streamu.
+A sequence of elements supporting sequential and parallel aggregate operations.
+
+-:: Method reference
+]Sometimes, however, a lambda expression does nothing but call an existing method. In those cases, it's often clearer to refer to the existing method by name. Method references enable you to do this; they are compact, easy-to-read lambda expressions for methods that already have a name.
+.map(String::toUpperCase)// to samo co s-> s.toUpperCase
+
+However, this method to compare the birth dates of two Person instances already exists as Person.compareByAge. You can invoke this method instead in the body of the lambda expression:
+Arrays.sort(rosterAsArray,
+    (a, b) -> Person.compareByAge(a, b)
+);
+
+Because this lambda expression invokes an existing method, you can use a method reference instead of a lambda expression:
+Arrays.sort(rosterAsArray, Person::compareByAge);
+
+
+
+
+-Intermediate and Terminal Stream operations
+Main differences between Intermediate and Terminal Stream operations are as follows:
+
+I. Evaluation: Intermediate operations are not evaluated until we chain it with a Terminal Operation of Stream. Terminal Operations can be independently evaluated.
+
+II. Output: The output of Intermediate Operations is another Stream. The output of Terminal Operations is not a Stream.
+
+III. Lazy: Intermediate Operations are evaluated in lazy manner. Terminal Operations are evaluated in eager manner.
+
+IV. Chaining: We can chain multiple Intermediate Operations in a Stream. Terminal Operations cannot be chained multiple times.
+
+V. Multiple: There can be multiple Intermediate operations in a Stream operation. There can be only one Terminal operation in Stream processing statement.

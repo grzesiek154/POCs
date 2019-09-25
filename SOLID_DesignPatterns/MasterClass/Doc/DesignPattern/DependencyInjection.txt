@@ -1,0 +1,1 @@
+Obiekty nie sa powiazana z konkretna implementacja, pozbywamy sie "new" keyword

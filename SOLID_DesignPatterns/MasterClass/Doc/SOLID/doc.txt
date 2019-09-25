@@ -1,0 +1,6 @@
+Asocjacja defniuje relacje pomiecy klasami, moze byc wiele rodzaji asocjacji
+
+Kompozycja - gdy jeden obiekt jest "wlascicielem" drugiego
+
+Asocjacje dziela sie na agregacje i kompozycje.
+Agregacja to zwykle polaczenie sie dwoch klas (np przez referencje) a kompozycja to taka asocjacja, ze jesli obiekt "nadrzedny" zostanie usuniety, to i wszystkie "podrzedne" zostana usuniete.

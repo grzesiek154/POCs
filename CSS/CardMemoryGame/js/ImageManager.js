@@ -4,18 +4,33 @@ export default class ImageManager {
         const cards = document.querySelectorAll('.card-front');
         console.log(cards);
     }
+
+  getArrayWitLimitedValues() {
+    const cards = document.querySelectorAll('.card-front');
+    let arr = [];
+
+        while(arr.length != cards.length) {
+            let val = getRandomVal(0,6);
+            let count = 0;
+            let temp = 0;
+            let i = 0;
+
+            if (temp == val) {
+                count++;
+            }
+            arr[i] = val;
+            i++;
+            
+        }
+            
+
+}
     getRandomVal(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
         let val = Math.floor(Math.random() * (max - min)) + min;  
-        let count = 0;
-        let temp;
-        if (temp == val) {
-            count++;
-            if(count == 2) {
-                
-            }
-        }
+        
+      
         return val;    
     }
 

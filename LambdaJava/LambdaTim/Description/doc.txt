@@ -1,0 +1,37 @@
+Wyrazenia lambda:
+ - nie potrzebuja deklaracji typu zwrotnego, kompilator sam domysla sie co zwraca funkcja
+ - nie potrzebuja modyfikatorow dostepu
+ - nie potrzebuje nazwy metody
+ - Gdy mamy wiecej niz jeden parametr w wyrazeni lambda musimy dodac "return"
+
+Aby przypisac wyrazenie lambda do zmiennej nalezy:
+- gdy uzywamy interfejsu do przechowywania wyrazenia lambda powinien on miec tylko jedna metode
+1. Utworzyc interfejs ktory bedzie przechowywal to wyrazenie
+2. Utworzyc metode w tym interfejsie, z tym samym podpisem(signature) co
+   wyrazenie lambda
+
+   To wyrazenie:
+  Greeting myLambdaGreeting = () -> System.out.print("Hello world!");
+
+   jest innmy sposobem na deklaracje :
+   Greeting innerClassGreeting = new Greeting() {
+   			public void perform() {
+   				System.out.print("Hello world!");
+   			}
+   		};
+
+@FunctionalInterface annotation is used to ensure that the functional interface can’t have more than one abstract method.
+In case more than one abstract methods are present, the compiler flags an ‘Unexpected @FunctionalInterface annotation’ message.
+However, it is not mandatory to use this annotation.
+
+Zmienne ktory chcemy uzyc w anonimowej klase zdeklarowane poza ta klasa, nie moga zostac zmienione dlatego musza byc FINAL
+
+Jesli zmienna jest zadeklarowana poza wyrazeniem lambda, a nasteptnie uzyta w wyrazeniu lambda nie mozemy zmienic jej wartosci poza wyrazeniem lambda
+Wartosci z poza wyrazenia lambda ktore uzywamy w wyrazenim lambda musza byc "Final"
+
+
+
+     employees.forEach(employee -> {
+            System.out.println(employee.getAge());
+            System.out.println(employee.getName());
+        });

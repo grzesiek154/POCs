@@ -1,0 +1,17 @@
+In most applications, we need to keep track of basic audit activities for the business data being maintained
+by users. The audit information typically includes the user who creates the data, the date it was created, the
+date it was last modified, and the user who last modified it.
+The Spring Data JPA project provides this function in the form of a JPA entity listener, which helps you
+keep track of the audit information automatically. To use the feature, until Spring 4, the entity class needed
+to implement the Auditable<U, ID extends Serializable, T extends TemporalAccessor> extends
+Persistable<ID> interface (belonging to Spring Data Commons) or extend any class that implements this
+interface. The following code snippet shows the Auditable interface that was extracted from Spring Data’s
+reference documentation:
+
+As you can see from the definition of the Auditable interface previously shown, the date types columns
+are restricted to types extending java.time.temporal.TemporalAccessor.
+Starting with Spring 5, implementing Auditable<U,ID extends Serializable> is no longer necessary
+because everything can be replaced by annotations. The four underlined columns indicate the audit-related
+columns. Notice the @CreatedBy, @CreatedDate, @LastModifiedBy, and @LastModifiedDate annotations.
+Using these annotations, the type restriction for the date columns no longer applies. The next step is to
+create the entity class called SingerAudit. The following code snippet shows the SingerAudit class

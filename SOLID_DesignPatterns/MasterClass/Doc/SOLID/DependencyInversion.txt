@@ -1,0 +1,6 @@
+High level modules should not depend on low level modules
+
+
+
+General manufatoring process classs - implements template pattern
+Uruchomienie metody launchProcess() sprawia ze te same processy produkcji sa uruchamiana dla kazdego uzacenia, raznia sie tylko implementacja poszczegolnych etapow

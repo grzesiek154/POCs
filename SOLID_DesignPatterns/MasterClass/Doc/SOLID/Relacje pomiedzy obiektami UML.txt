@@ -1,0 +1,33 @@
+https://stackoverflow.com/questions/21967841/aggregation-vs-composition-vs-association-vs-direct-association/26586650
+
+
+1. Association
+An association relation is established when two classes are connected to each other in any way. For example: A “bank registers account” association can be shown as follows.
+Association relationship in class diagrams
+
+2. Multiplicity
+An example of this kind of association is many accounts being registered by the bank. Hence, the relationship shows a star sign near the account class (one to many and many to many etc). When it comes to class diagram relationship this is one of the most misunderstood relationships.
+Multiplicity relationship in Class diagrams
+
+3. Directed Association
+By default, an association that exists between classes is bi-directional. Ideally, you may illustrate the flow of the association by utilizing a directed association. The arrowhead indicates the container-contained relationship.
+Directed Association in Class diagrams
+
+4. Reflexive Association
+An example here is when a class has many different types of responsibilities. For example, an employee of a company can be an executive, assistant manager, or a CEO. There is no symbol that can be used here, however, the relation will point back at the same class.
+
+5. Aggregation
+When a class is formed as a collection of other classes, it is called an aggregation relationship between these classes. It is also called a “has a” relationship.
+Aggregation Relationship in Class Diagrams
+
+6. Composition
+The composition is a variation of the aggregation relationship. Composition illustrates that a strong life cycle is present between the classes. Another class diagram relationship that not many are aware of and few really understand.
+Composition Relationship in Class Diagrams
+
+7. Generalization/Inheritance
+Known as an “is a” relationship since the child class is a type of the parent class. Generalization is the ideal type of relationship that is used to showcase reusable elements in the class diagram. Literally, the child classes “inherit” the common functionality defined in the parent class.
+Generalization Relationship in class diagrams
+
+8. Realization
+In a realization relationship, one entity (normally an interface) defines a set of functionalities as a contract and the other entity (normally a class) “realizes” the contract by implementing the functionality defined in the contract.
+Realization in Class Diagram Relationships

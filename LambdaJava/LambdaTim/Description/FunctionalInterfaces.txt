@@ -1,0 +1,49 @@
+-Interface Consumer<T>
+This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference.
+
+-Interface Predicate<T>
+Represents a predicate (boolean-valued function) of one argument.
+This is a functional interface whose functional method is test(Object).
+Mozemy uzywac go np do przekazania jakiegos warunku w metodzie:
+
+  private static void pringEmployeesByAge(List<Employee> employees, String ageText, Predicate<Employee> ageCondition) {
+
+        System.out.println(ageText);
+        System.out.println("==========================");
+        employees.forEach(employee -> {
+          if (ageCondition.test(employee)) {
+              System.out.println(employee.getName());
+          }
+        });
+
+    }
+
+    uzycie:
+     pringEmployeesByAge(employees, "Employees over 30", employee -> employee.getAge() > 30);
+
+       pringEmployeesByAge(employees, "\nYounger that 25, ", new Predicate<Employee>() {
+                 @Override
+                 public boolean test(Employee employee) {
+                     return employee.getAge() < 25;
+                 }
+             });
+
+Mozemy laczyc tez ze soba dwa predykaty za pomoca "and"
+  IntPredicate graterThan15 = i -> i > 15;
+         IntPredicate lessThan100 = i -> i < 100;
+         System.out.println(graterThan15.test(10));
+         System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!");
+         System.out.println(graterThan15.and(lessThan100).test(50));
+         System.out.println(graterThan15.and(lessThan100).test(10));
+
+
+
+-public interface Supplier<T>
+Represents a supplier of results.
+There is no requirement that a new or distinct result be returned each time the supplier is invoked.
+
+This is a functional interface whose functional method is get().
+
+Chained Function
+Funkcje w lancuchu beda operawoaly na przekazanym rezultacie z poprzedzajacej funkcji
+ Function<T, R>  T (czyli argument musi) byc tego samego typu co R(czyli result) poprzedzajacej funkcji

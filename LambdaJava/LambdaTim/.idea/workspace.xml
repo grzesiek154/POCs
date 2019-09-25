@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="826f1f56-e89c-4b07-b177-4837e39f79a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LambdaTim.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/employees/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasterClass/src/com/company/DesignPatterns/FactoryPattern/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasterClass/src/com/company/DesignPatterns/FactoryPattern/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasterClass/src/com/company/DesignPatterns/FactoryPattern/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasterClass/src/com/company/DesignPatterns/FactoryPattern/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasterClass/src/com/company/DesignPatterns/FactoryPattern/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasterClass/src/com/company/DesignPatterns/FactoryPattern/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasterClass/src/com/company/DesignPatterns/FactoryPattern/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/Doc/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/src/main/java/com/mytestingdoc/DataSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/src/main/java/com/mytestingdoc/repos/SingerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/src/test/java/com/mytestingdoc/Service/ServiceTestExecutionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/Doc/AudiableAuditExplenation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/Doc/doc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/config/DataJpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/entities/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/entities/AuditableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/entities/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/entities/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/repo/AlbumRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/repo/SingerAuditRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/repo/SingerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/service/AlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/service/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/service/SingerAuditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/service/SingerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/service/SingerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/resources/db/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/resources/db/test-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/test/java/SingerDataJpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LambdaMy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaMy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LambdaMy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaMy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MasterClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MasterClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MasterClass/Doc/DesignPattern/BuilderPattern" beforeDir="false" afterPath="$PROJECT_DIR$/../MasterClass/Doc/DesignPattern/BuilderPattern" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MasterClass/src/com/company/DesignPatterns/BuilderPattern/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MasterClass/src/com/company/DesignPatterns/BuilderPattern/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/src/main/java/guru/springframework/services/GreetingRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/src/main/java/guru/springframework/services/GreetingRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/src/main/java/guru/springframework/services/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/src/main/java/guru/springframework/services/RecipeServiceImpl.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1939180027">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="FunctionalInterfaces" value="355" />
+          <entry key="java" value="2221" />
+          <entry key="txt" value="837" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2221" />
+          <entry key="PLAIN_TEXT" value="1192" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="FunctionalInterfaces" value="2" />
+          <entry key="java" value="8" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+          <entry key="PLAIN_TEXT" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/streams/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Description/streams.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/Description/doc.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/employees/Employee.java" />
+        <option value="$PROJECT_DIR$/Description/FunctionalInterfaces" />
+        <option value="$PROJECT_DIR$/src/com/company/employees/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/streams/Main.java" />
+        <option value="$PROJECT_DIR$/Description/streams.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LambdaTim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LambdaTim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LambdaTim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LambdaTim" type="462c0819:PsiDirectoryNode" />
+              <item name="Description" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LambdaTim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LambdaTim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LambdaTim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LambdaTim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="streams" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547482402922" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../noeitApp/angular/angularProjects/note-it-api/spring-app" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.employees.Main" />
+      <module name="LambdaTim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.employees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.streams.Main" />
+      <module name="LambdaTim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="LambdaTim" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="826f1f56-e89c-4b07-b177-4837e39f79a3" name="Default Changelist" comment="" />
+      <created>1547119426247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547119426247</updated>
+      <workItem from="1547119429339" duration="12234000" />
+      <workItem from="1547475999696" duration="1094000" />
+      <workItem from="1547477686730" duration="3799000" />
+      <workItem from="1548148472514" duration="617000" />
+      <workItem from="1548328923569" duration="30000" />
+      <workItem from="1548329038614" duration="292000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18066000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26119402" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6060">
+          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20893">
+          <caret line="1304" column="18" selection-start-line="1304" selection-start-column="18" selection-end-line="1304" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Description/doc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Description/FunctionalInterfaces" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/employees/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/employees/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="81" column="57" lean-forward="true" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/streams/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Description/streams.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

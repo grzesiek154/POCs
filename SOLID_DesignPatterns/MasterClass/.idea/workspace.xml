@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e03e3fa-6726-48ba-a2a8-ac469ccc3af8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/Doc/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/src/main/java/com/mytestingdoc/DataSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/src/main/java/com/mytestingdoc/repos/SingerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTestingDoc/src/test/java/com/mytestingdoc/Service/ServiceTestExecutionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/Doc/AudiableAuditExplenation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/Doc/doc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/config/DataJpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/entities/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/entities/AuditableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/entities/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/entities/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/repo/AlbumRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/repo/SingerAuditRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/repo/SingerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/service/AlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/service/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/service/SingerAuditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/service/SingerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/java/com/SingerDataJpa/service/SingerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/resources/db/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/main/resources/db/test-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingerDataJpa/src/test/java/SingerDataJpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/DesignPattern/BuilderPattern" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/DesignPattern/BuilderPattern" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DesignPatterns/BuilderPattern/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/BuilderPattern/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/src/main/java/guru/springframework/services/GreetingRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-di-demo-factory-beans/src/main/java/guru/springframework/services/GreetingRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/src/main/java/guru/springframework/services/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app-using-setters-on-pojos/spring5-recipe-app-using-setters-on-pojos/src/main/java/guru/springframework/services/RecipeServiceImpl.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="37534715">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="BuilderPattern" value="1" />
+          <entry key="Singelton" value="2" />
+          <entry key="java" value="14" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="14" />
+          <entry key="PLAIN_TEXT" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="BuilderPattern" value="2" />
+          <entry key="Singelton" value="2" />
+          <entry key="java" value="191" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="191" />
+          <entry key="PLAIN_TEXT" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/BuilderPattern/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/BuilderPattern/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/DependencyInversion/processes/SmartphoneManufactoringProcess.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DependencyInversion/Clients/DeviceFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LiskovSubstitutionPrinciple/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LiskovSubstitutionPrinciple/MatchTeacher.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LiskovSubstitutionPrinciple/ScienceTeacher.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LiskovSubstitutionPrinciple/EnglishTeacher.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LiskovSubstitutionPrinciple/SubstituteTeacher.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LiskovSubstitutionPrinciple/CourseInstructor.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LiskovSubstitutionPrinciple/MatchSchoolStaff.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LiskovSubstitutionPrinciple/ScienceSchoolStaff.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LiskovSubstitutionPrinciple/EnglishSchoolStaff.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LiskovSubstitutionPrinciple/SchoolStaff.java" />
+        <option value="$PROJECT_DIR$/Doc/LiskovSubstitutionPrinciple" />
+        <option value="$PROJECT_DIR$/src/com/company/InterfaceSegregation/Customer.java" />
+        <option value="$PROJECT_DIR$/src/com/company/InterfaceSegregation/Product.java" />
+        <option value="$PROJECT_DIR$/src/com/company/InterfaceSegregation/CustomerTransaction.java" />
+        <option value="$PROJECT_DIR$/Doc/InterfaceSegregationPrinciple" />
+        <option value="$PROJECT_DIR$/src/com/company/InterfaceSegregation/AccountReceivable.java" />
+        <option value="$PROJECT_DIR$/src/com/company/InterfaceSegregation/ReportGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/InterfaceSegregation/Accounting.java" />
+        <option value="$PROJECT_DIR$/Doc/DesignPattern/DependencyInjection" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/DependencyInjection/Engine.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/DependencyInjection/LargeEngine.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/DependencyInjection/SmalEngine.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/DependencyInjection/App.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SOLID/DependencyInversion_TDP/processes/GeneralManufactoringProcess.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/DependencyInjection/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/subjects/domain/EmployeeDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/domain/EmployeeDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/subjects/someClass.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/domain/EmployeeDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/observers/IObserver.java" />
+        <option value="$PROJECT_DIR$/Doc/DesignPattern/ObserverPattern" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/subjects/isSubject.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/subjects/EmployeeManagmentSystem.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/subjects/ISubject.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/clients/App.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/observers/PayroolDepartment.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/observers/HRDepartment.java" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Class Diagram Relationships in UML Explained with Examples.url" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/CoffeShopExercise/WaitingCustomer.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/CoffeShopExercise/Customer.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/CoffeShopExercise/CoffeAttendent.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/CoffeShopExercise/CoffeeShop.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/VehicleFactory.java" />
+        <option value="$PROJECT_DIR$/Doc/DesignPattern/FactoryPattern.txt" />
+        <option value="$PROJECT_DIR$/Doc/DesignPattern/Singelton" />
+        <option value="$PROJECT_DIR$/Doc/DesignPattern/BuilderPattern" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/BuilderPattern/App.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignPatterns/BuilderPattern/User.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="false" />
+      <foldersAlwaysOnTop value="false" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MasterClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterClass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MasterClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MasterClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BuilderPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MasterClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DependencyInjection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MasterClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-excluded-files" value="false" />
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545407824817" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Lecture 30 Factory Pattern/factorymethodpattern" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.company.InterfaceSegregation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\moje\GitHub\Doc\MasterClass\src\com\company\DesignPatterns\FactoryPattern" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.DependencyInversion" />
+      <recent name="com.company.OpenClosedPrinciple" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\moje\java\sprinAndHibernate\doc\MasterClass\Doc\SOLID" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CoffeeShop">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.ObserverPattern.clients.App" />
+      <module name="MasterClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DesignPatterns.ObserverPattern.clients.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.DependencyInjection.App" />
+      <module name="MasterClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DesignPatterns.DependencyInjection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoffeeShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.ObserverPattern.CoffeShopExercise.CoffeeShop" />
+      <module name="MasterClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DesignPatterns.ObserverPattern.CoffeShopExercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmergencyRoomProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SOLID.OpenClosedPrinciple.EmergencyRoomProcess" />
+      <module name="MasterClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.SOLID.OpenClosedPrinciple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SOLID.OpenClosedPrinciple.RemoteControllerEx.User" />
+      <module name="MasterClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.SOLID.OpenClosedPrinciple.RemoteControllerEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.EmergencyRoomProcess" />
+      <item itemvalue="Application.User" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.App (1)" />
+      <item itemvalue="Application.CoffeeShop" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CoffeeShop" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.EmergencyRoomProcess" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e03e3fa-6726-48ba-a2a8-ac469ccc3af8" name="Default" comment="" />
+      <created>1542639498816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542639498816</updated>
+      <workItem from="1545129737031" duration="1240000" />
+      <workItem from="1545389536993" duration="2460000" />
+      <workItem from="1546518173332" duration="615000" />
+      <workItem from="1546849111855" duration="599000" />
+      <workItem from="1546954416842" duration="133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5047000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" x="722" y="48" width="476" height="944" id="Project" order="0" visible="true" weight="0.25698924" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32944915" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" x="722" y="48" width="476" height="944" id="Project" order="0" visible="true" weight="0.24791667" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32944915" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Doc/SOLID/OpenClosedPrinciple.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/SOLID/InterfaceSegregationPrinciple">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="202" column="175" selection-start-line="202" selection-start-column="175" selection-end-line="202" selection-end-column="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/DesignPattern/DependencyInjection">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="79" selection-start-column="79" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/SingleResponsibility/ClientModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/SingleResponsibility/DataBaseConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/SingleResponsibility/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/SingleResponsibility/EmployeeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/SingleResponsibility/EmployeeReportFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/SingleResponsibility/FormatType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/SingleResponsibility/ReportFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/LiskovSubstitutionPrinciple/SubstituteTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/LiskovSubstitutionPrinciple/ScienceSchoolStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/LiskovSubstitutionPrinciple/SchoolStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/LiskovSubstitutionPrinciple/MatchSchoolStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/LiskovSubstitutionPrinciple/EnglishSchoolStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/LiskovSubstitutionPrinciple/CourseInstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/DependencyInversion_TDP/Clients/DeviceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/DependencyInversion_TDP/processes/GeneralManufactoringProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SOLID/DependencyInversion_TDP/processes/LaptopManufactoringProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/DesignPattern/ObserverPattern">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="139" selection-start-line="4" selection-start-column="139" selection-end-line="4" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/domain/EmployeeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/clients/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/observers/PayroolDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Class Diagram Relationships in UML Explained with Examples.url" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/observers/HRDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/subjects/ISubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/observers/IObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/CoffeShopExercise/WaitingCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/subjects/EmployeeManagmentSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/CoffeShopExercise/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="90" selection-start-line="38" selection-start-column="90" selection-end-line="38" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/CoffeShopExercise/CoffeAttendent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/ObserverPattern/CoffeShopExercise/CoffeeShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/Car.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/ElectricCar.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/VehicleType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/Truck.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryPattern/VehicleFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/DesignPattern/FactoryPattern.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/DesignPattern/Singelton">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="136" selection-start-line="15" selection-start-column="136" selection-end-line="15" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/DesignPattern/BuilderPattern">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="212" selection-start-line="17" selection-start-column="212" selection-end-line="17" selection-end-column="212" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/DependencyInjection/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/DependencyInjection/LargeEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/DependencyInjection/SmalEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/DependencyInjection/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/DependencyInjection/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/BuilderPattern/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignPatterns/BuilderPattern/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MasterClass</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
